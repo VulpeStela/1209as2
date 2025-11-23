@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=1.2cm, y=1.2cm, very thick]
+\draw (0,0) -- (11,0);
+\draw (1,0) -- (1,-0.6);
+\draw (1,0) arc[start angle=180, end angle=0, radius=4.5];
+\draw (10,0) arc[start angle=180, end angle=0, radius=-0.5];
+\draw (9,0) arc[start angle=-180, end angle=0, radius=-2.5];
+\draw (4,0) arc[start angle=180, end angle=0, radius=-0.5];
+\draw (3,0) arc[start angle=-180, end angle=0, radius=-0.5];
+\draw (2,0) arc[start angle=-180, end angle=0, radius=1.5];
+\draw (5,0) arc[start angle=180, end angle=0, radius=1.5];
+\draw (8,0) arc[start angle=180, end angle=0, radius=-0.5];
+\draw (7,0) arc[start angle=-180, end angle=0, radius=-0.5];
+\draw (6,0) -- (6,-0.6);
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}

@@ -1,0 +1,43 @@
+\documentclass[10pt]{article}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.3cm, y=0.3cm, very thick]
+\draw (-1,0) -- (40,0);
+% Arches of depth 5
+    \draw[fill=Green] (0,0) -- (0,3) -- (2,3) -- (2,4) -- (10,4) -- (10,5) -- (12,5) -- (12,6) -- (23,6) -- (23,5) -- (31,5) -- (31,4) -- (39,4) -- (39,0);
+% Arches of depth 4
+    \draw[fill=LimeGreen] (1,0) -- (1,2) -- (3,2) -- (3,3) -- (11,3) -- (11,4) -- (13,4) -- (13,5) -- (22,5) -- (22,4) -- (30,4) -- (30,2) -- (31,2) -- (31,3) -- (38,3) -- (38,0);
+% Arches of depth 3
+    \draw[fill=Yellow] (10,0) -- (10,2) -- (12,2) -- (12,3) -- (14,3) -- (14,4) -- (21,4) -- (21,0);
+% Arches of depth 2
+    \draw[fill=Goldenrod] (13,0) -- (13,2) -- (15,2) -- (15,3) -- (20,3) -- (20,0);
+    \draw[fill=Goldenrod] (22,0) -- (22,3) -- (29,3) -- (29,0);
+% Arches of depth 1
+    \draw[fill=Orange] (4,0) -- (4,2) -- (9,2) -- (9,0);
+    \draw[fill=Orange] (16,0) -- (16,2) -- (19,2) -- (19,0);
+    \draw[fill=Orange] (23,0) -- (23,2) -- (28,2) -- (28,0);
+    \draw[fill=Orange] (32,0) -- (32,2) -- (37,2) -- (37,0);
+% Arches of depth 0
+    \draw[fill=Red] (2,0) -- (2,1) -- (3,1) -- (3,0);
+    \draw[fill=Red] (5,0) -- (5,1) -- (6,1) -- (6,0);
+    \draw[fill=Red] (7,0) -- (7,1) -- (8,1) -- (8,0);
+    \draw[fill=Red] (11,0) -- (11,1) -- (12,1) -- (12,0);
+    \draw[fill=Red] (14,0) -- (14,1) -- (15,1) -- (15,0);
+    \draw[fill=Red] (17,0) -- (17,1) -- (18,1) -- (18,0);
+    \draw[fill=Red] (24,0) -- (24,1) -- (25,1) -- (25,0);
+    \draw[fill=Red] (26,0) -- (26,1) -- (27,1) -- (27,0);
+    \draw[fill=Red] (30,0) -- (30,1) -- (31,1) -- (31,0);
+    \draw[fill=Red] (33,0) -- (33,1) -- (34,1) -- (34,0);
+    \draw[fill=Red] (35,0) -- (35,1) -- (36,1) -- (36,0);
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}
